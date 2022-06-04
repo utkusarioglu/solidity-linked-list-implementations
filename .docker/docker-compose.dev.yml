@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  hardhat-repo-template:
+    image: utkusarioglu/ethereum-dev-environment
+    volumes:
+      - ..:/utkusarioglu/templates/hardhat-repo-template

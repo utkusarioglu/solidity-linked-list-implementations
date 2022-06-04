@@ -1,0 +1,12 @@
+node_modules
+*.log
+*.env
+/artifacts
+cache
+/types
+/lib
+crytic-export
+/ignore
+/deployments/localhost
+/deployments/hardhat
+mcore_*
