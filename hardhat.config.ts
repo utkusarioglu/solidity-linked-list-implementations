@@ -48,12 +48,12 @@ const hardhatConfig = {
       saveDeployments: true,
       accounts: hardhatAccounts(),
       tags: ["local"],
-      forking: {
-        enabled: true,
-        url: `https://polygon-mumbai.g.alchemy.com/v2/${config.get(
-          "apiKeys.alchemy.polygon.mumbai"
-        )}`,
-      },
+      // forking: {
+      //   enabled: true,
+      //   url: `https://polygon-mumbai.g.alchemy.com/v2/${config.get(
+      //     "apiKeys.alchemy.polygon.mumbai"
+      //   )}`,
+      // },
     },
 
     geth1: {
